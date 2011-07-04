@@ -8,9 +8,9 @@ global $forum_copyright, $forum_version, $webmaster_email, $scripturl, $context,
 //   - http://www.php.net/function.pspell-new
 //   - http://www.php.net/function.setlocale
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
-$txt['lang_locale'] = 'en_US.utf8';
+$txt['lang_locale'] = 'et_EE.utf8';
 $txt['lang_dictionary'] = 'estonian';
-$txt['lang_spelling'] = 'american';
+$txt['lang_spelling'] = 'estonian';
 
 // Ensure you remember to use uppercase for character set strings.
 $txt['lang_character_set'] = 'UTF-8';
@@ -19,12 +19,12 @@ $txt['lang_rtl'] = false;
 // Capitalize day and month names?
 $txt['lang_capitalize_dates'] = true;
 
-$txt['days'] = array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
-$txt['days_short'] = array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
+$txt['days'] = array('Pühapäev', 'Esmaspäev', 'Teisipäev', 'Kolmapäev', 'Neljapäev', 'Reede', 'Laupäev');
+$txt['days_short'] = array('P', 'E', 'T', 'K', 'N', 'R', 'L');
 // Months must start with 1 => 'January'. (or translated, of course.)
-$txt['months'] = array(1 => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-$txt['months_titles'] = array(1 => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-$txt['months_short'] = array(1 => 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+$txt['months'] = array(1 => 'Jaanuar', 'Veebruar', 'Märts', 'Aprill', 'Mai', 'Juuni', 'Juuli', 'August', 'September', 'Oktoober', 'November', 'Detsember');
+$txt['months_titles'] = array(1 => 'Jaanuar', 'Veebruar', 'Märts', 'Aprill', 'Mai', 'Juuni', 'Juuli', 'August', 'September', 'Oktoober', 'November', 'Detsember');
+$txt['months_short'] = array(1 => 'jaan', 'veebr', 'märts', 'aprill', 'mai', 'juuni', 'juuli', 'august', 'sept', 'okt', 'nov', 'dets');
 
 $txt['time_am'] = 'am';
 $txt['time_pm'] = 'pm';
@@ -34,23 +34,23 @@ $txt['newmessages1'] = 'are new';
 $txt['newmessages3'] = 'New';
 $txt['newmessages4'] = ',';
 
-$txt['admin'] = 'Admin';
-$txt['moderate'] = 'Moderate';
+$txt['admin'] = 'Administreeri';
+$txt['moderate'] = 'Modereeri';
 
 $txt['save'] = 'Save';
 
 $txt['modify'] = 'Modify';
 $txt['forum_index'] = '%1$s - Index';
-$txt['members'] = 'Members';
+$txt['members'] = 'Liikmed';
 $txt['board_name'] = 'Board name';
-$txt['posts'] = 'Posts';
+$txt['posts'] = 'Postitust';
 
 $txt['member_postcount'] = 'Posts';
 $txt['no_subject'] = '(No subject)';
 $txt['view_profile'] = 'View Profile';
 $txt['guest_title'] = 'Guest';
 $txt['author'] = 'Author';
-$txt['on'] = 'on';
+$txt['on'] = '';
 $txt['remove'] = 'Remove';
 $txt['start_new_topic'] = 'Start new topic';
 
@@ -64,7 +64,7 @@ $txt['no_user_with_email'] = 'There are no usernames associated with that email.
 
 $txt['board_moderator'] = 'Board Moderator';
 $txt['remove_topic'] = 'Remove Topic';
-$txt['topics'] = 'Topics';
+$txt['topics'] = 'Teemat';
 $txt['modify_msg'] = 'Modify message';
 $txt['name'] = 'Name';
 $txt['email'] = 'Email';
@@ -91,21 +91,21 @@ $txt['warn_moderate'] = 'Moderated';
 $txt['warn_mute'] = 'Muted';
 
 $txt['message_index'] = 'Message Index';
-$txt['news'] = 'News';
-$txt['home'] = 'Home';
+$txt['news'] = 'Uudised';
+$txt['home'] = 'Esileht';
 
 $txt['lock_unlock'] = 'Lock/Unlock Topic';
 $txt['post'] = 'Post';
 $txt['error_occured'] = 'An Error Has Occurred!';
 $txt['at'] = 'at';
-$txt['logout'] = 'Logout';
+$txt['logout'] = 'Väljun';
 $txt['started_by'] = 'Started by';
-$txt['replies'] = 'Replies';
-$txt['last_post'] = 'Last post';
+$txt['replies'] = 'Vastused';
+$txt['last_post'] = 'Viimane postitus';
 $txt['admin_login'] = 'Administration Login';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Topic';
-$txt['help'] = 'Help';
+$txt['help'] = 'Abi';
 $txt['notify'] = 'Notify';
 $txt['unnotify'] = 'Unnotify';
 $txt['notify_request'] = 'Do you want a notification email if someone replies to this topic?';
@@ -143,7 +143,7 @@ $txt['no'] = 'No';
 $txt['search_end_results'] = 'End of results';
 $txt['search_on'] = 'on';
 
-$txt['search'] = 'Search';
+$txt['search'] = 'Otsing';
 $txt['all'] = 'All';
 
 $txt['back'] = 'Back';
@@ -174,11 +174,11 @@ $txt['error_invalid_characters_username'] = 'Invalid character used in Username.
 $txt['welcome_guest'] = 'Welcome, <strong>%1$s</strong>. Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
 $txt['login_or_register'] = 'Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
 $txt['welcome_guest_activate'] = '<br />Did you miss your <a href="' . $scripturl . '?action=activate">activation email</a>?';
-$txt['hello_member'] = 'Hey,';
+$txt['hello_member'] = 'Tere,';
 // Use numeric entities in the below string.
-$txt['hello_guest'] = 'Welcome,';
-$txt['welmsg_hey'] = 'Hey,';
-$txt['welmsg_welcome'] = 'Welcome,';
+$txt['hello_guest'] = 'Tere,';
+$txt['welmsg_hey'] = 'Tere,';
+$txt['welmsg_welcome'] = 'Tere,';
 $txt['welmsg_please'] = 'Please';
 $txt['select_destination'] = 'Please select a destination';
 
@@ -225,7 +225,7 @@ $txt['check_new_messages'] = 'Check for new messages';
 $txt['to'] = 'To';
 
 $txt['board_topics'] = 'Topics';
-$txt['members_title'] = 'Members';
+$txt['members_title'] = 'Liikmed';
 $txt['members_list'] = 'Members List';
 $txt['new_posts'] = 'New Posts';
 $txt['old_posts'] = 'No New Posts';
@@ -257,7 +257,7 @@ $txt['participation_caption'] = 'Topic you have posted in';
 $txt['go_caps'] = 'GO';
 
 $txt['print'] = 'Print';
-$txt['profile'] = 'Profile';
+$txt['profile'] = 'Profiil';
 $txt['topic_summary'] = 'Topic Summary';
 $txt['not_applicable'] = 'N/A';
 $txt['message_lowercase'] = 'message';
@@ -278,7 +278,7 @@ $txt['ip'] = 'IP';
 
 $txt['www'] = 'WWW';
 
-$txt['by'] = 'by';
+$txt['by'] = '';
 
 $txt['hours'] = 'hours';
 $txt['days_word'] = 'days';
@@ -303,7 +303,7 @@ $txt['maintain_mode_on'] = 'Remember, this forum is in \'Maintenance Mode\'.';
 $txt['read'] = 'Read';
 $txt['times'] = 'times';
 
-$txt['forum_stats'] = 'Forum Stats';
+$txt['forum_stats'] = 'Foorumi statistika';
 $txt['latest_member'] = 'Latest Member';
 $txt['total_cats'] = 'Total Categories';
 $txt['latest_post'] = 'Latest Post';
@@ -369,7 +369,7 @@ $txt['one_hour'] = '1 Hour';
 $txt['moved'] = 'MOVED';
 $txt['moved_why'] = 'Please enter a brief description as to<br />why this topic is being moved.';
 $txt['board'] = 'Board';
-$txt['in'] = 'in';
+$txt['in'] = '';
 $txt['sticky_topic'] = 'Sticky Topic';
 
 $txt['delete'] = 'Delete';
@@ -668,11 +668,11 @@ $txt['split_reset_selection'] = 'reset selection';
 $txt['modify_cancel'] = 'Cancel';
 $txt['mark_read_short'] = 'Mark Read';
 
-$txt['pm_short'] = 'My Messages';
+$txt['pm_short'] = 'Minu teated';
 $txt['pm_menu_read'] = 'Read your messages';
 $txt['pm_menu_send'] = 'Send a message';
 
-$txt['hello_member_ndt'] = 'Hello';
+$txt['hello_member_ndt'] = 'Tere';
 
 $txt['unapproved_posts'] = 'Unapproved Posts (Topics: %1$d, Posts: %2$d)';
 
@@ -680,7 +680,7 @@ $txt['ajax_in_progress'] = 'Loading...';
 
 $txt['mod_reports_waiting'] = 'There are currently %1$d moderator reports open.';
 
-$txt['view_unread_category'] = 'Unread Posts';
+$txt['view_unread_category'] = 'Lugemata postitused';
 $txt['verification'] = 'Verification';
 $txt['visual_verification_description'] = 'Type the letters shown in the picture';
 $txt['visual_verification_sound'] = 'Listen to the letters';
