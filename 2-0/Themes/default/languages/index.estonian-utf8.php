@@ -45,42 +45,43 @@ $txt['members'] = 'Liikmed';
 $txt['board_name'] = 'Board name';
 $txt['posts'] = 'Postitust';
 
-$txt['member_postcount'] = 'Posts';
-$txt['no_subject'] = '(No subject)';
-$txt['view_profile'] = 'View Profile';
-$txt['guest_title'] = 'Guest';
+$txt['member_postcount'] = 'Postitust';
+$txt['no_subject'] = '(Pole teemat)';
+$txt['view_profile'] = 'Vaata profiili';
+$txt['guest_title'] = 'Külaline';
 $txt['author'] = 'Author';
-$txt['on'] = '';
-$txt['remove'] = 'Remove';
-$txt['start_new_topic'] = 'Start new topic';
+$txt['on'] = 'on';
+$txt['remove'] = 'Eemalda';
+$txt['start_new_topic'] = 'Alusta uut teemat';
 
-$txt['login'] = 'Login';
+$txt['login'] = 'Logi sisse';
 // Use numeric entities in the below string.
-$txt['username'] = 'Username';
-$txt['password'] = 'Password';
+$txt['username'] = 'Kasutajanimi või e-maili aadress';
+$txt['password'] = 'Parool';
 
-$txt['username_no_exist'] = 'That username does not exist.';
+$txt['username_no_exist'] = 'Seda kasutaja nime ei leitud, proovi sisse logida e-maili aadressiga. 
+Kui ikka ei õnnestu kirjuta kiri valguskera@gmail.com teen asja korda. ( meil olid foorumi muutmisel v&#228;iksed tehnilised rikked ) ';
 $txt['no_user_with_email'] = 'There are no usernames associated with that email.';
 
 $txt['board_moderator'] = 'Board Moderator';
 $txt['remove_topic'] = 'Remove Topic';
 $txt['topics'] = 'Teemat';
-$txt['modify_msg'] = 'Modify message';
-$txt['name'] = 'Name';
-$txt['email'] = 'Email';
-$txt['subject'] = 'Subject';
-$txt['message'] = 'Message';
+$txt['modify_msg'] = 'Muuda postitust';
+$txt['name'] = 'Nimi';
+$txt['email'] = 'E-mail';
+$txt['subject'] = 'Teema';
+$txt['message'] = 'S&#245;num';
 $txt['redirects'] = 'Redirects';
 $txt['quick_modify'] = 'Modify Inline';
 
-$txt['choose_pass'] = 'Choose password';
-$txt['verify_pass'] = 'Verify password';
+$txt['choose_pass'] = 'Vali parool';
+$txt['verify_pass'] = 'Korda parooli';
 $txt['position'] = 'Position';
 
 $txt['profile_of'] = 'View the profile of';
 $txt['total'] = 'Total';
-$txt['posts_made'] = 'Posts';
-$txt['website'] = 'Website';
+$txt['posts_made'] = 'Postitust';
+$txt['website'] = 'Veebisait';
 $txt['register'] = 'Register';
 $txt['warning_status'] = 'Warning Status';
 $txt['user_warn_watch'] = 'User is on moderator watch list';
@@ -94,13 +95,13 @@ $txt['message_index'] = 'Message Index';
 $txt['news'] = 'Uudised';
 $txt['home'] = 'Esileht';
 
-$txt['lock_unlock'] = 'Lock/Unlock Topic';
-$txt['post'] = 'Post';
+$txt['lock_unlock'] = 'Lukusta/ava Teema';
+$txt['post'] = 'Postitus';
 $txt['error_occured'] = 'An Error Has Occurred!';
 $txt['at'] = 'at';
-$txt['logout'] = 'Väljun';
-$txt['started_by'] = 'Started by';
-$txt['replies'] = 'Vastused';
+$txt['logout'] = 'Logi v&#228;lja';
+$txt['started_by'] = 'Alustanud';
+$txt['replies'] = 'Replies';
 $txt['last_post'] = 'Viimane postitus';
 $txt['admin_login'] = 'Administration Login';
 // Use numeric entities in the below string.
@@ -115,7 +116,7 @@ $txt['notify_replies'] = 'Notify of replies';
 $txt['move_topic'] = 'Move Topic';
 $txt['move_to'] = 'Move to';
 $txt['pages'] = 'Pages';
-$txt['users_active'] = 'Users active in past %1$d minutes';
+$txt['users_active'] = 'Aktiivsed kasutajad viimasel %1$d minutil';
 $txt['personal_messages'] = 'Personal Messages';
 $txt['reply_quote'] = 'Reply with quote';
 $txt['reply'] = 'Reply';
@@ -132,42 +133,42 @@ $txt['msg_alert_you_have'] = 'you have';
 $txt['msg_alert_messages'] = 'messages';
 $txt['remove_message'] = 'Remove this message';
 
-$txt['online_users'] = 'Users Online';
+$txt['online_users'] = 'Aktiivsed kasutajad';
 $txt['personal_message'] = 'Personal Message';
 $txt['jump_to'] = 'Jump to';
 $txt['go'] = 'go';
 $txt['are_sure_remove_topic'] = 'Are you sure you want to remove this topic?';
-$txt['yes'] = 'Yes';
-$txt['no'] = 'No';
+$txt['yes'] = 'Jah';
+$txt['no'] = 'Ei';
 
 $txt['search_end_results'] = 'End of results';
 $txt['search_on'] = 'on';
 
-$txt['search'] = 'Otsing';
+$txt['search'] = 'Otsi';
 $txt['all'] = 'All';
 
-$txt['back'] = 'Back';
-$txt['password_reminder'] = 'Password reminder';
+$txt['back'] = 'Tagasi';
+$txt['password_reminder'] = 'Parooli meeldetuletus';
 $txt['topic_started'] = 'Topic started by';
 $txt['title'] = 'Title';
 $txt['post_by'] = 'Post by';
 $txt['memberlist_searchable'] = 'Searchable list of all registered members.';
 $txt['welcome_member'] = 'Please welcome';
 $txt['admin_center'] = 'Administration Center';
-$txt['last_edit'] = 'Last Edit';
+$txt['last_edit'] = 'Viimane muudatus';
 $txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
 
-$txt['recent_posts'] = 'Recent Posts';
+$txt['recent_posts'] = 'Hiljutised postitused';
 
-$txt['location'] = 'Location';
-$txt['gender'] = 'Gender';
-$txt['date_registered'] = 'Date Registered';
+$txt['location'] = 'Asukoht';
+$txt['gender'] = 'Maine keha';
+$txt['date_registered'] = 'Registeerimis kuupäev';
 
-$txt['recent_view'] = 'View the most recent posts on the forum.';
+$txt['recent_view'] = 'Vaata hiljuti tehtud postitusi';
 $txt['recent_updated'] = 'is the most recently updated topic';
 
-$txt['male'] = 'Male';
-$txt['female'] = 'Female';
+$txt['male'] = 'Mees';
+$txt['female'] = 'Naine';
 
 $txt['error_invalid_characters_username'] = 'Invalid character used in Username.';
 
@@ -192,7 +193,7 @@ $txt['icon_laugh'] = 'Laugh';
 $txt['icon_sad'] = 'Sad';
 $txt['icon_wink'] = 'Wink';
 $txt['icon_grin'] = 'Grin';
-$txt['icon_shocked'] = 'Shocked';
+$txt['icon_shocked'] = 'Šokeeritud';
 $txt['icon_cool'] = 'Cool';
 $txt['icon_huh'] = 'Huh';
 $txt['icon_rolleyes'] = 'Roll Eyes';
@@ -200,7 +201,7 @@ $txt['icon_tongue'] = 'Tongue';
 $txt['icon_embarrassed'] = 'Embarrassed';
 $txt['icon_lips'] = 'Lips sealed';
 $txt['icon_undecided'] = 'Undecided';
-$txt['icon_kiss'] = 'Kiss';
+$txt['icon_kiss'] = 'Musi';
 $txt['icon_cry'] = 'Cry';
 
 $txt['moderator'] = 'Moderator';
@@ -210,13 +211,13 @@ $txt['mark_board_read'] = 'Mark Topics as Read for this Board';
 $txt['views'] = 'Views';
 $txt['new'] = 'New';
 
-$txt['view_all_members'] = 'View All Members';
+$txt['view_all_members'] = 'Vaata kõiki kasutajaid';
 $txt['view'] = 'View';
 
 $txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
 $txt['of_total_members'] = 'of %1$s total members';
 
-$txt['forgot_your_password'] = 'Forgot your password?';
+$txt['forgot_your_password'] = 'Unustasid parooli?';
 
 $txt['date'] = 'Date';
 // Use numeric entities in the below string.
@@ -224,10 +225,10 @@ $txt['from'] = 'From';
 $txt['check_new_messages'] = 'Check for new messages';
 $txt['to'] = 'To';
 
-$txt['board_topics'] = 'Topics';
+$txt['board_topics'] = 'Teemat';
 $txt['members_title'] = 'Liikmed';
 $txt['members_list'] = 'Members List';
-$txt['new_posts'] = 'New Posts';
+$txt['new_posts'] = 'Uued postitused';
 $txt['old_posts'] = 'No New Posts';
 $txt['redirect_board'] = 'Redirect Board';
 
@@ -256,7 +257,7 @@ $txt['participation_caption'] = 'Topic you have posted in';
 
 $txt['go_caps'] = 'GO';
 
-$txt['print'] = 'Print';
+$txt['print'] = 'Prindi';
 $txt['profile'] = 'Profiil';
 $txt['topic_summary'] = 'Topic Summary';
 $txt['not_applicable'] = 'N/A';
@@ -270,7 +271,7 @@ $txt['total_topics'] = 'Total Topics';
 $txt['mins_logged_in'] = 'Minutes to stay logged in';
 
 $txt['preview'] = 'Preview';
-$txt['always_logged_in'] = 'Always stay logged in';
+$txt['always_logged_in'] = 'Ole alati sisse logitud';
 
 $txt['logged'] = 'Logged';
 // Use numeric entities in the below string.
@@ -304,9 +305,9 @@ $txt['read'] = 'Read';
 $txt['times'] = 'times';
 
 $txt['forum_stats'] = 'Foorumi statistika';
-$txt['latest_member'] = 'Latest Member';
+$txt['latest_member'] = 'Viimane liituja';
 $txt['total_cats'] = 'Total Categories';
-$txt['latest_post'] = 'Latest Post';
+$txt['latest_post'] = 'Viimane postitus';
 
 $txt['you_have'] = 'You\'ve got';
 $txt['click'] = 'Click';
@@ -315,7 +316,7 @@ $txt['to_view'] = 'to view them.';
 
 $txt['total_boards'] = 'Total Boards';
 
-$txt['print_page'] = 'Print Page';
+$txt['print_page'] = 'Prindi lehekülg';
 
 $txt['valid_email'] = 'This must be a valid email address.';
 
@@ -360,25 +361,25 @@ $txt['poll_lock'] = 'Lock Voting';
 $txt['poll_unlock'] = 'Unlock Voting';
 $txt['poll_edit'] = 'Edit Poll';
 $txt['poll'] = 'Poll';
-$txt['one_day'] = '1 Day';
-$txt['one_week'] = '1 Week';
-$txt['one_month'] = '1 Month';
+$txt['one_day'] = '1 päev';
+$txt['one_week'] = '1 nädal';
+$txt['one_month'] = '1 kuu';
 $txt['forever'] = 'Forever';
 $txt['quick_login_dec'] = 'Login with username, password and session length';
-$txt['one_hour'] = '1 Hour';
-$txt['moved'] = 'MOVED';
+$txt['one_hour'] = '1 tund';
+$txt['moved'] = 'LIIGUTATUD';
 $txt['moved_why'] = 'Please enter a brief description as to<br />why this topic is being moved.';
 $txt['board'] = 'Board';
 $txt['in'] = '';
 $txt['sticky_topic'] = 'Sticky Topic';
 
-$txt['delete'] = 'Delete';
+$txt['delete'] = 'Kustuta';
 
 $txt['your_pms'] = 'Your Personal Messages';
 
 $txt['kilobyte'] = 'kB';
 
-$txt['more_stats'] = '[More Stats]';
+$txt['more_stats'] = '[Rohkem statistikat]';
 
 // Use numeric entities in the below three strings.
 $txt['code'] = 'Code';
@@ -484,8 +485,8 @@ $txt['smtp_bad_response'] = 'Couldn\'t get mail server response codes';
 $txt['smtp_error'] = 'Ran into problems sending Mail. Error: ';
 $txt['mail_send_unable'] = 'Unable to send mail to the email address \'%1$s\'';
 
-$txt['mlist_search'] = 'Search For Members';
-$txt['mlist_search_again'] = 'Search again';
+$txt['mlist_search'] = 'Otsi kasutajaid';
+$txt['mlist_search_again'] = 'Otsi uuesti';
 $txt['mlist_search_email'] = 'Search by email address';
 $txt['mlist_search_messenger'] = 'Search by messenger nickname';
 $txt['mlist_search_group'] = 'Search by position';
@@ -572,15 +573,15 @@ $txt['rss'] = 'RSS';
 $txt['xhtml'] = 'XHTML';
 $txt['html'] = 'HTML';
 
-$txt['guest'] = 'Guest';
-$txt['guests'] = 'Guests';
-$txt['user'] = 'User';
-$txt['users'] = 'Users';
-$txt['hidden'] = 'Hidden';
-$txt['buddy'] = 'Buddy';
-$txt['buddies'] = 'Buddies';
-$txt['most_online_ever'] = 'Most Online Ever';
-$txt['most_online_today'] = 'Most Online Today';
+$txt['guest'] = 'Külaline';
+$txt['guests'] = 'Külalist';
+$txt['user'] = 'Liige';
+$txt['users'] = 'Liiget';
+$txt['hidden'] = 'Nähtamatud';
+$txt['buddy'] = 'Sõber';
+$txt['buddies'] = 'Sõpra';
+$txt['most_online_ever'] = 'Korraga foorumis viibinud inimeste rekordarv';
+$txt['most_online_today'] = 'Täna korraga foorumis viibinud inimeste rekordarv';
 
 $txt['merge_select_target_board'] = 'Select the target board of the merged topic';
 $txt['merge_select_poll'] = 'Select which poll the merged topic should have';
@@ -611,24 +612,24 @@ $txt['totalTimeLogged5'] = 'd ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_thereis'] = 'There is';
+$txt['approve_thereis'] = 'Hetkel on';
 $txt['approve_thereare'] = 'There are';
-$txt['approve_member'] = 'one member';
-$txt['approve_members'] = 'members';
-$txt['approve_members_waiting'] = 'awaiting approval.';
+$txt['approve_member'] = 'üks kasutaja';
+$txt['approve_members'] = 'kasutajat';
+$txt['approve_members_waiting'] = 'ootavad kinnitamist.';
 
 $txt['notifyboard_turnon'] = 'Do you want a notification email when someone posts a new topic in this board?';
 $txt['notifyboard_turnoff'] = 'Are you sure you do not want to receive new topic notifications for this board?';
 
 $txt['activate_code'] = 'Your activation code is';
 
-$txt['find_members'] = 'Find Members';
+$txt['find_members'] = 'Otsi kasutajaid';
 $txt['find_username'] = 'Name, username, or email address';
 $txt['find_buddies'] = 'Show Buddies Only?';
 $txt['find_wildcards'] = 'Allowed Wildcards: *, ?';
 $txt['find_no_results'] = 'No results found';
 $txt['find_results'] = 'Results';
-$txt['find_close'] = 'Close';
+$txt['find_close'] = 'Sulge';
 
 $txt['unread_since_visit'] = 'Show unread posts since last visit.';
 $txt['show_unread_replies'] = 'Show new replies to your posts.';
@@ -668,11 +669,11 @@ $txt['split_reset_selection'] = 'reset selection';
 $txt['modify_cancel'] = 'Cancel';
 $txt['mark_read_short'] = 'Mark Read';
 
-$txt['pm_short'] = 'Minu teated';
+$txt['pm_short'] = 'Postkast';
 $txt['pm_menu_read'] = 'Read your messages';
 $txt['pm_menu_send'] = 'Send a message';
 
-$txt['hello_member_ndt'] = 'Tere';
+$txt['hello_member_ndt'] = 'Tervitus';
 
 $txt['unapproved_posts'] = 'Unapproved Posts (Topics: %1$d, Posts: %2$d)';
 
@@ -682,9 +683,9 @@ $txt['mod_reports_waiting'] = 'There are currently %1$d moderator reports open.'
 
 $txt['view_unread_category'] = 'Lugemata postitused';
 $txt['verification'] = 'Verification';
-$txt['visual_verification_description'] = 'Type the letters shown in the picture';
+$txt['visual_verification_description'] = 'Trüki tähed mida näed värviliselt üleval pildil';
 $txt['visual_verification_sound'] = 'Listen to the letters';
-$txt['visual_verification_request_new'] = 'Request another image';
+$txt['visual_verification_request_new'] = 'Anna teine pilt';
 
 // Sub menu labels
 $txt['summary'] = 'Summary';
